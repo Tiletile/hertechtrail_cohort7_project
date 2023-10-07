@@ -1,9 +1,32 @@
 /********** Template CSS **********/
 :root {
-    --primary: #4294e3;
+    --primary: #e3b042;
     --secondary: rgb(66, 6, 6);
     --light: #f0f6ff;
     --dark: #262b47;
+}
+
+#name{
+    
+    font-family:'Young Serif', serif; ;
+    font-size: 130px;
+    text-transform: capitalize;
+    color: transparent;
+    -webkit-text-stroke: 1px white;
+    background: url(../img/carousel\ 5.jpg);
+    -webkit-background-clip: text;
+    background-position: 0 0;
+    animation: back  20s linear infinite;
+}
+
+@keyframes back{
+    100%{
+        background-position: 2000px 0;
+    }
+}
+
+p{
+    color: black;
 }
 
 /*** Spinner ***/
@@ -48,6 +71,7 @@ h6,
     );
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    
 }
 
 .text-secondary-gradient {
@@ -291,7 +315,7 @@ h6,
     margin-bottom: 6rem;
     padding: 16rem 0 0 0;
     background: url(../img/bg-circle.png), url(../img/bg-triangle.png),
-        url(../img/bg-bottom.png),
+        url(../img/bg-bottom.png) ,
         linear-gradient(to bottom right, var(--primary), var(--secondary));
     background-position: left 0px top 0px, right 0px top 50%, center bottom;
     background-repeat: no-repeat;
