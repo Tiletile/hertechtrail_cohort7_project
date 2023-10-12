@@ -1,10 +1,14 @@
 /********** Template CSS **********/
 :root {
-    --primary: #e3b042;
-    --secondary: rgb(66, 6, 6);
+    --primary: hsl(185, 96%, 35%);
+    --secondary: hsl(0, 86%, 54%);
     --light: #f0f6ff;
     --dark: #262b47;
+    
+
 }
+
+/* #3ebcdb; */
 
 #name{
     
@@ -17,6 +21,52 @@
     -webkit-background-clip: text;
     background-position: 0 0;
     animation: back  20s linear infinite;
+
+    
+}
+
+
+@media (max-width: 576px) {
+    #name{
+        display: block;
+    
+        justify-content: center;
+        align-items: center;
+    font-size: 80px;
+    text-transform: capitalize;
+    color: transparent;
+    -webkit-text-stroke: 1px white;
+    background: url(../img/carousel\ 5.jpg);
+    -webkit-background-clip: text;
+    background-position: 0 0;
+    animation: back  20s linear infinite;
+}   
+}
+
+#review,#rev{ 
+background: rgba(255, 255, 255, 0.19);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5px);
+-webkit-backdrop-filter: blur(5px);
+border: 1px solid rgba(255, 255, 255, 0.3);
+
+    
+} 
+
+
+
+#profile img{
+
+    border-top-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    height: 70vh;
+    border-top-right-radius: 5%;
+    border: 2px #15059c;
+    border-top-style: dashed;
+    border-bottom-style: dashed;
+
+    
 }
 
 @keyframes back{
@@ -326,6 +376,16 @@ h6,
         padding: 6rem 0 9rem 0;
     }
 }
+
+#project{
+    transition: 0.5s;
+}
+
+#project:hover{
+    margin-top: 5px;
+    box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.08);
+}
+
 
 /*** Feature ***/
 .feature-item {
