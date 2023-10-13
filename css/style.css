@@ -17,7 +17,7 @@
     text-transform: capitalize;
     color: transparent;
     -webkit-text-stroke: 1px white;
-    background: url(../img/carousel\ 5.jpg);
+    background: url(../img/codebg2.png);
     -webkit-background-clip: text;
     background-position: 0 0;
     animation: back  20s linear infinite;
@@ -43,16 +43,7 @@
 }   
 }
 
-#review,#rev{ 
-background: rgba(255, 255, 255, 0.19);
-border-radius: 16px;
-box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-backdrop-filter: blur(5px);
--webkit-backdrop-filter: blur(5px);
-border: 1px solid rgba(255, 255, 255, 0.3);
 
-    
-} 
 
 
 
@@ -64,10 +55,28 @@ border: 1px solid rgba(255, 255, 255, 0.3);
     border-top-right-radius: 5%;
     border: 2px #15059c;
     border-top-style: dashed;
-    border-bottom-style: dashed;
-
-    
+    border-bottom-style: dashed;  
 }
+
+/* @media (max-width:950px){
+    #profile img{
+
+        display: block;
+        justify-content: center;
+        align-items: center;
+        margin-right: auto;
+        margin-left: auto;
+        border-top-left-radius: 50%;
+        border-bottom-right-radius: 50%;
+        height: 70vh;
+        border-top-right-radius: 5%;
+        border: 2px #15059c;
+        border-top-style: dashed;
+        border-bottom-style: dashed;  
+    }   
+
+
+} */
 
 @keyframes back{
     100%{
