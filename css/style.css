@@ -51,32 +51,28 @@
 
     border-top-left-radius: 50%;
     border-bottom-right-radius: 50%;
-    height: 70vh;
+
     border-top-right-radius: 5%;
     border: 2px #15059c;
     border-top-style: dashed;
     border-bottom-style: dashed;  
 }
 
-/* @media (max-width:950px){
+ @media (max-width:950px){
     #profile img{
 
-        display: block;
-        justify-content: center;
-        align-items: center;
-        margin-right: auto;
-        margin-left: auto;
         border-top-left-radius: 50%;
         border-bottom-right-radius: 50%;
-        height: 70vh;
+    
         border-top-right-radius: 5%;
         border: 2px #15059c;
         border-top-style: dashed;
         border-bottom-style: dashed;  
+
     }   
 
 
-} */
+} 
 
 @keyframes back{
     100%{
