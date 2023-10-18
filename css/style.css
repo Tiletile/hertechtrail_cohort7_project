@@ -1,12 +1,19 @@
 /********** Template CSS **********/
 :root {
-    --primary: hsl(185, 96%, 35%);
-    --secondary: hsl(0, 86%, 54%);
-    --light: #f0f6ff;
+    --primary: black;
+    --secondary: #262b47;
+    --light: #fcfff0;
     --dark: #262b47;
     
 
 }
+
+
+
+*{
+    font-family:'Young Serif', serif; ;
+}
+
 
 /* #3ebcdb; */
 
@@ -21,10 +28,8 @@
     -webkit-background-clip: text;
     background-position: 0 0;
     animation: back  20s linear infinite;
-
     
 }
-
 
 @media (max-width: 576px) {
     #name{
@@ -42,6 +47,35 @@
     animation: back  20s linear infinite;
 }   
 }
+
+#name1{
+    font-family:'Young Serif', serif; ;
+    font-size: 80px;
+    text-transform: capitalize;
+    color: transparent;
+    -webkit-text-stroke: 1px white;
+    background: url(../img/handcover.jpg);
+    -webkit-background-clip: text;
+    background-position: 0 0;
+    animation: back  20s linear infinite;
+
+    
+}
+
+@media (max-width: 576px) {
+    #name1{
+
+    font-size: 80px;
+    text-transform: capitalize;
+    color: transparent;
+    -webkit-text-stroke: 1px white;
+    background: url(../img/handcover.jpg);
+    -webkit-background-clip: text;
+    background-position: 0 0;
+    animation: back  20s linear infinite;
+}   
+}
+
 
 
 
@@ -246,6 +280,7 @@ h6,
 }
 
 /*** Navbar ***/
+
 .navbar-light .navbar-nav .nav-link {
     position: relative;
     margin-right: 25px;
@@ -279,6 +314,7 @@ h6,
 .navbar-light .navbar-nav .nav-link:hover::before,
 .navbar-light .navbar-nav .nav-link.active::before {
     top: 0;
+    
 }
 
 .navbar-light .navbar-brand h1 {
@@ -366,7 +402,7 @@ h6,
 }
 
 /*** Hero Header ***/
-.hero-header {
+ /* .hero-header {
     margin-bottom: 6rem;
     padding: 16rem 0 0 0;
     background: url(../img/bg-circle.png), url(../img/bg-triangle.png),
@@ -374,10 +410,66 @@ h6,
         linear-gradient(to bottom right, var(--primary), var(--secondary));
     background-position: left 0px top 0px, right 0px top 50%, center bottom;
     background-repeat: no-repeat;
-}
+}  */
 
+
+.hero-header {
+    margin-bottom: 2rem;
+    padding: 16rem  0 0 0;
+    background: url(../img/bg-circle.png), url(../img/bg-triangle.png),
+        url(../img/flat-lay-workstation-with-copy-space-laptop.jpg) ,
+        linear-gradient(to bottom right, var(--dark), var(--dark));
+        background-color: whitesmoke;
+        background-blend-mode: hard-light;
+    background-position: left 10% top 50%, right 0px top 70%, center bottom;
+    background-repeat: no-repeat;
+    background-size: auto, auto, cover;
+    
+} 
 @media (max-width: 991.98px) {
     .hero-header {
+        padding: 6rem 0 9rem 0;
+    }
+}
+
+.hero-header2 {
+    margin-bottom: 2rem;
+    padding: 16rem  0 0 0;
+    background: url(../img/bg-circle.png), url(../img/bg-triangle.png),
+        url(../img/abstract-design-background-smooth-flowing-lines.jpg) ,
+        linear-gradient(to bottom right, var(--dark), var(--dark));
+        background-color: whitesmoke;
+        background-blend-mode: hard-light;
+    background-position: left 10% top 50%, right 0px top 70%, center bottom;
+    background-repeat: no-repeat;
+    background-size: auto, auto, cover;
+    
+} 
+
+@media (max-width: 991.98px) {
+    .hero-header2 {
+        padding: 6rem 0 9rem 0;
+    }
+}
+
+.hero-header1 {
+    margin-bottom: 2rem;
+    padding: 16rem  0 0 0;
+    background: url(../img/bg-circle.png), url(../img/bg-triangle.png),
+        url(../img/codebg2.png) ,
+        linear-gradient(to bottom right, var(--dark), var(--dark));
+        background-color: #262b47;
+        background-blend-mode: multiply;
+    background-position: left 10% top 50%, right 0px top 70%, center bottom;
+    background-repeat: no-repeat;
+    background-size: auto, auto, cover;
+    
+} 
+
+
+
+@media (max-width: 991.98px) {
+    .hero-header1 {
         padding: 6rem 0 9rem 0;
     }
 }
