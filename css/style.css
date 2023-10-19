@@ -8,6 +8,9 @@
 
 }
  
+body{
+    background-color: white !important;
+}
 
 *{
     font-family:'Young Serif', serif; ;
@@ -84,8 +87,6 @@
 
     border-top-left-radius: 50%;
     border-bottom-right-radius: 50%;
-
-    border-top-right-radius: 5%;
     border: 2px #15059c;
     border-top-style: dashed;
     border-bottom-style: dashed;  
@@ -96,8 +97,6 @@
 
         border-top-left-radius: 50%;
         border-bottom-right-radius: 50%;
-    
-        border-top-right-radius: 5%;
         border: 2px #15059c;
         border-top-style: dashed;
         border-bottom-style: dashed;  
