@@ -1,14 +1,13 @@
 /********** Template CSS **********/
 :root {
     --primary: black;
-    --secondary: #262b47;
+    --secondary: #101a50;
     --light: #fcfff0;
-    --dark: #262b47;
+    --dark: #101a50;
     
 
 }
-
-
+ 
 
 *{
     font-family:'Young Serif', serif; ;
@@ -198,9 +197,11 @@ h6,
 .btn.btn-secondary-gradient {
     position: relative;
     overflow: hidden;
-    border: none;
+    border:none;
     color: #ffffff;
-    z-index: 1;
+    font-weight: 100;
+    z-index: 1; 
+ 
 }
 
 .btn.btn-primary-gradient::after,
@@ -495,7 +496,7 @@ h6,
 }
 
 /*** Pricing ***/
-.pricing .nav {
+/* .pricing .nav {
     padding: 2px;
 }
 
@@ -521,10 +522,10 @@ h6,
         var(--primary),
         var(--secondary)
     );
-}
+} */
 
 /*** Screenshot ***/
-.screenshot-carousel {
+/* .screenshot-carousel {
     position: relative;
     width: 253px;
     height: 500px;
@@ -589,7 +590,17 @@ h6,
 
 .screenshot-carousel .owl-dot.active {
     box-shadow: 0 0 10px var(--dark);
+} */
+
+#review{
+    background-color: var(--light);
+
 }
+
+body{
+    background-color: var(--light);
+}
+
 
 /*** Testimonial ***/
 .testimonial-carousel .owl-item .testimonial-item,

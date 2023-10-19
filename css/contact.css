@@ -1,13 +1,15 @@
 :root {
-    --primary: hsl(185, 96%, 35%);
-    --secondary: hsl(0, 86%, 54%);
-    --light: #f0f6ff;
-    --dark: #262b47;
+    --primary: black;
+    --secondary: #101a50;
+    --light: #fcfff0;
+    --dark: #101a50;
+    
+
 }
 
 
 nav {
-    background-color: var(--primary);
+    background-color: var(--dark);
 }
 
 #v{
