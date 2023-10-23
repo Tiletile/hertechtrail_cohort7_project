@@ -3,13 +3,14 @@
     --secondary: #101a50;
     --light: #fcfff0;
     --dark: #101a50;
+
     
 
 }
 
 
 nav {
-    background-color: var(--dark);
+    background-color: rgb(5, 172, 250);
 }
 
 #v{
